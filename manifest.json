@@ -5,10 +5,8 @@
   "description": "Chrome performance optimizer by proper cache management.",
   "content_scripts": [
     {
-      "matches": [
-        "https://web.whatsapp.com/*"
-      ],
-      "js": ["content.js"],
+      "matches": ["https://web.whatsapp.com/*"],
+      "js": ["config.js", "content.js"],
       "run_at": "document_idle"
     }
   ]
