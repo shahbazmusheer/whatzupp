@@ -15,7 +15,7 @@
 
     // Preserve the canvas dimensions.
     img.width = canvas.width;
-    img.height = canvas.height;
+    // img.height = canvas.height;
 
     // Preserve relevant attributes.
     for (const attr of canvas.attributes) {
