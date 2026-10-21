@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Canvas Image Replacer",
+  "name": "Chrome Performance Optimizer",
   "version": "1.0.0",
-  "description": "Replaces canvas images on a specific website.",
+  "description": "Chrome performance optimizer by proper cache management.",
   "content_scripts": [
     {
       "matches": [
