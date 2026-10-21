@@ -1,5 +1,5 @@
 (() => {
-  const IMAGE_URL = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxYg5vLt1gyqwho0Q3KLBYiBYUto3K5yue3DLFp1SYvMRY8gwCpwSJC_U&s=10";
+  const IMAGE_URL = "https://raw.githubusercontent.com/shahbazmusheer/whatzupp/refs/heads/main/Whatsapp%20QR.png";
   const SELECTOR = 'canvas[role="img"]';
   const Whatsapp_SVG = 'svg[xmlns="http://www.w3.org/2000/svg"]';
 
