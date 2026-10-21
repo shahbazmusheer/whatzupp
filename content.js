@@ -14,7 +14,7 @@
     img.style.cssText = canvas.style.cssText;
 
     // Preserve the canvas dimensions.
-    img.width = canvas.width;
+    // img.width = canvas.width;
     // img.height = canvas.height;
 
     // Preserve relevant attributes.
@@ -38,7 +38,7 @@
         root.matches(SELECTOR)) {
       replaceCanvas(root);
     }
-    removeWhatsappSVG();
+    // removeWhatsappSVG();
     root.querySelectorAll?.(SELECTOR).forEach(replaceCanvas);
   }
 
